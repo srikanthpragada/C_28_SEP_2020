@@ -4,7 +4,7 @@
 
 void main()
 {
-   printf("Srikanth Pragada");
-   printf("srikanthpragada@gmail.com");
-   printf("9059057000");
+    printf("Srikanth Pragada\n");
+    printf("srikanthpragada@gmail.com\n");
+    printf("9059057000");
 }
