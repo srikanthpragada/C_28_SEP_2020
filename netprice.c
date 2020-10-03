@@ -4,13 +4,13 @@
 
 void main()
 {
- float price, discount, netprice;
+ float price, discount, net_price;
 
     printf("Enter price : ");
     scanf("%f", &price);
 
     discount = price * 15 / 100;
-    netprice = price - discount;
+    net_price = price - discount;
 
-    printf("Amount to be paid = %.2f",netprice);
+    printf("Amount to be paid = %.2f",net_price);
 }
