@@ -6,5 +6,4 @@ void main()
 
      c = b / (float) a;  // Type casting
      printf("%f",c);
-
 }
