@@ -1,15 +1,15 @@
-void line(int length)
+void line(int length,char ch)
 {
  int i;
 
     for(i=1; i <= length; i ++)
-        putch('*');
+        putch(ch);
 }
 
 void main()
 {
-    line(20);
+    line(20,'*');
     printf("\n");
-    line(50);
+    line(30,'=');
 }
 
