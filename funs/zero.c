@@ -1,13 +1,13 @@
 
-void zero(int v)
+void zero(int * p)
 {
-   v = 0;
+   *p = 0;
 }
 
 main()
 {
   int a = 100;
 
-      zero(a);
+      zero(&a);
       printf("%d",a);
 }
