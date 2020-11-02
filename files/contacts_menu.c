@@ -43,7 +43,7 @@ FILE  * fp;
         printf("3. Search Contacts\n");
         printf("4. Update Contact\n");
         printf("5. Exit\n");
-        printf("Enter your choice [1-5] :");\
+        printf("Enter your choice [1-5] :");
         scanf("%d",&opt);
 
         switch(opt)
